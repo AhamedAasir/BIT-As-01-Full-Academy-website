@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnWithUs Academy</title>
+    <!--Bootstrap css file link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--Boostrap jquery file link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Boostrap js file link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <!--External Style Sheet -->
+    <link rel="stylesheet" href="style/style.css"/>
+    
+    
+</head>
+<body>
+  
+  <div class="navbar scrolled about-nav">
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="assets/logo1.png" alt="logo">
+            </a>
+          </div>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <div class="navitems">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">LearnWithUs Academy</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="navitems2">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#"> Master of Science in Building Engineering and Energy Management</a></li>
+                    <li><a class="dropdown-item" href="#">  Master of Science in Facilities Management</a></li>
+                    <li><a class="dropdown-item" href="#"> BA (Hons) in Fashion (TOP UP)</a></li>
+                    <li><a class="dropdown-item" href="#">BSc (Hons) in Nursing (TOP UP)</a></li>
+                    <li><a class="dropdown-item" href="#">BSc (Hons) in Software Engineering</a></li>
+                    <li><a class="dropdown-item" href="#">BSc (Hons) in Bussiness Management</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Course.html">All Courses</a></li>
+                  </ul>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <div class="Getstartbtn">
+                    <button class="btn" id="Regbutton" >REGISTER ONLINE</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div> 
+
+<!-- Course  Section-->
+  <div class="courses-page">
+    <h1>Featured Courses</h1>
+    <div class="courses-grid">
+      <!-- Repeat this block for each course -->
+      <div class="course-card">
+        <img src="assets/course1.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">Advanced Web Development</h2>
+        <p class="course-description">Dive deep into modern web technologies such as React, Node.js, and MongoDB. Learn how to build responsive, scalable web applications.</p>
+        <p class="course-price">LKR 75,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course2.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">Digital Marketing Mastery</h2>
+        <p class="course-description">Master SEO, social media marketing, email campaigns, and analytics. Designed for entrepreneurs and marketing professionals.</p>
+        <p class="course-price">LKR 60,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course3.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">Data Science and AI Essentials</h2>
+        <p class="course-description">Learn data analytics, machine learning, and AI tools using Python and R. Gain hands-on experience with real-world datasets.</p>
+        <p class="course-price">LKR 85,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course4.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">Cybersecurity Fundamentals</h2>
+        <p class="course-description">Understand network security, ethical hacking, and malware protection to safeguard IT systems.</p>
+        <p class="course-price"> LKR 70,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course5.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">Hospitality and Tourism Management</h2>
+        <p class="course-description">Focused on Sri Lanka’s booming tourism industry, this course covers customer service, hotel operations, and event management.</p>
+        <p class="course-price">LKR 50,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course6.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name"> Construction Project Management</h2>
+        <p class="course-description">Tailored for Sri Lanka's construction industry, this course teaches project planning, budgeting, and resource management.</p>
+        <p class="course-price">LKR 80,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course7.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">Graphic Design for Professionals</h2>
+        <p class="course-description"> Learn Adobe Photoshop, Illustrator, and InDesign to create stunning designs for digital and print media.</p>
+        <p class="course-price">LKR 55,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course8.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">Financial Accounting and Analysis</h2>
+        <p class="course-description">Gain proficiency in accounting principles, financial reporting, and analysis for decision-making.</p>
+        <p class="course-price"> LKR 65,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course9.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name">App Development with Flutter</h2>
+        <p class="course-description">Build cross-platform mobile applications using Flutter and Dart. Perfect for those entering mobile development.</p>
+        <p class="course-price">LKR 75,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="assets/course10.jpg" alt="Course Icon" class="course-image">
+        <h2 class="course-name"> English Communication Skills</h2>
+        <p class="course-description">Enhance your English speaking, writing, and presentation skills for professional and academic success.</p>
+        <p class="course-price">LKR 40,000</p>
+        <button class="enroll-button">Enroll Now</button>
+      </div>
+      <!-- End of block -->
+    </div>
+  </div>
+
+<!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <img src="assets/logo1.png" alt="University Logo" class="footer-logo">
+        <p>LearnWithUs Academy</p>
+        <p>Colombo</p>
+        <p>20400</p>
+        <p>Sri Lanka</p>
+        <p>Phone: +94 81 238 8301</p>
+        <p>Fax: +94 81 238 8102</p>
+      </div>
+      <div class="footer-section">
+        <h3>Main Navigation</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="Course.html">Courses</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Information For</h3>
+        <ul>
+          <li><a href="#">Undergraduate Admissions</a></li>
+          <li><a href="#">Studentships</a></li>
+          <li><a href="#">Students</a></li>
+          <li><a href="#">Visit Permission</a></li>
+          <li><a href="#">Photography Requests</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="#">Student Registration System</a></li>
+          <li><a href="#">Academics Ragging Complaints Portal</a></li>
+          <li><a href="#">Complaints On Sexual & Gender-Based Harassment</a></li>
+          <li><a href="#">Counselling And Psychological Support Unit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2024 LearnWithUs Academy. All Rights Reserved | Support:
+        support@learnwithus.com
+        </p>
+    </div>
+  </footer>
+   
+
+</body>
+<!--External js-->
+<script src="js/script.js"></script>
+</html>
+
+
